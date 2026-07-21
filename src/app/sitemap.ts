@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '../data/blogData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://lcfitness.club';
+  const baseUrl = 'https://www.lcfitnessclubpune.in';
 
   const locations = [
     '/gym-in-keshavnagar',

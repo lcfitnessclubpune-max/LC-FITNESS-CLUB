@@ -23,17 +23,17 @@ export async function generateMetadata(): Promise<Metadata> {
     title,
     description,
     keywords,
-    authors: [{ name: 'Anand Jankar', url: 'https://lcfitness.club/' }],
+    authors: [{ name: 'Anand Jankar', url: 'https://www.lcfitnessclubpune.in/' }],
     creator: 'L C Fitness Club',
     publisher: 'L C Fitness Club',
-    metadataBase: new URL('https://lcfitness.club/'),
+    metadataBase: new URL('https://www.lcfitnessclubpune.in/'),
     alternates: {
       canonical: '/',
     },
     openGraph: {
       title,
       description,
-      url: 'https://lcfitness.club/',
+      url: 'https://www.lcfitnessclubpune.in/',
       siteName: 'L C Fitness Club',
       images: [
         {
