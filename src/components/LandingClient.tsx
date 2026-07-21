@@ -40,7 +40,6 @@ export const LandingClient: React.FC = () => {
         <div className="absolute top-[5%] -left-36 w-[650px] h-[650px] bg-[#F0FF00]/15 rounded-full blur-[150px]" />
         <div className="absolute top-[28%] -right-36 w-[650px] h-[650px] bg-[#00E5FF]/15 rounded-full blur-[150px]" />
         <div className="absolute top-[52%] -left-36 w-[650px] h-[650px] bg-[#4A5300]/15 rounded-full blur-[150px]" />
-        <div className="absolute top-[75%] -right-36 w-[650px] h-[650px] bg-[#F0FF00]/15 rounded-full blur-[150px]" />
       </div>
 
       {/* Floating Capsule Glass Navigation Header */}
