@@ -1,5 +1,6 @@
 import '../index.css';
 import React from 'react';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'L C Fitness Club - Keshavnagar, Mundhwa, Pune',
@@ -112,6 +113,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased selection:bg-[#F0FF00] selection:text-[#1E1E1A] overflow-x-hidden w-full bg-[#EFECE6] text-[#1E1E1A]">
         {children}
+        <Analytics />
       </body>
     </html>
   );
